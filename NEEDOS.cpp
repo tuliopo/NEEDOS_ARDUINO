@@ -15,7 +15,7 @@ void NEEDOS()
 {
 		#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega88P__)
 
-			NEEDOS_AVR(0x1E,(1<<CS02)); //default for ms min time with timer 0
+			NEEDOS_AVR(0x3E,(1<<CS02)); //default for ms min time with timer 0
 	
 		#endif 
 
